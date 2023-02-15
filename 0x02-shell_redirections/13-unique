@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -c | grep -E '\1\' | tr -s ' ' | cut -d ' ' -f 3
+sort | uniq -u
